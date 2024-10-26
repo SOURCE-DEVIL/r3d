@@ -71,7 +71,7 @@ if not r.get(f'{Dev_Zaid}botname'):
     r.set(f'{Dev_Zaid}botname', 'رعد')
 
 if not r.get(f'{Dev_Zaid}botchannel'):
-    r.set(f'{Dev_Zaid}botname', 'eFFb0t')
+    r.set(f'{Dev_Zaid}botname', 'TTTTTT6')
 
 def Find(text):
   m = r"(?i)\b((?:https?://|www\d{0,3}[.]|[a-z0-9.\-]+[.][a-z]{2,4}/)(?:[^\s()<>]+|\(([^\s()<>]+|(\([^\s()<>]+\)))*\))+(?:\(([^\s()<>]+|(\([^\s()<>]+\)))*\)|[^\s!()\[\]{};:'\".,<>?«»“”‘’]))"
@@ -141,7 +141,7 @@ print('''
 
 🔮 Your bot started successfully on R 3 D ☆ Source 🔮
 
-•••••••• @yqyqy66 - @yqyqy66 •••••••••
+•••••••• @N_B_0 - @N_B_0 •••••••••
 
 
 ''')
