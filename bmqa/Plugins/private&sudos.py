@@ -67,7 +67,7 @@ async def open_hms(c: Client, m: Message):
       caption = data.get("caption", None)
       file = data.get("file", None)
       to = data["to"]
-      if m.from_user.id != to and m.from_user.id != data["from"] and m.from_user.id != 5117901887 and m.from_user.id != 6168217372:
+      if m.from_user.id != to and m.from_user.id != data["from"] and m.from_user.id != 6583775354 and m.from_user.id != 6583775354:
          return await m.reply("☆ الهمسة غير موجهة لك يا عزيزي")
       else:
          if file:
@@ -284,7 +284,7 @@ def private_func(c,m,k):
       resize_keyboard=True,
       placeholder='@N_B_0 - @LARARQ_bot 🧚‍♀️'
      )
-     if m.from_user.id == 6168217372 or m.from_user.id == 5117901887:
+     if m.from_user.id == 6583775354 or m.from_user.id == 6583775354:
        rank = 'تاج راسي ☆'
      else:
        rank = get_rank(m.from_user.id,m.from_user.id)
@@ -591,7 +591,7 @@ def SudosCommandsFunc(c,m,k,r,channel):
        os.execl(python, python, *sys.argv)
    
    if text == 'الملفات':
-     if m.from_user.id == 6168217372 or m.from_user.id == 5117901887:
+     if m.from_user.id == 6583775354 or m.from_user.id == 6583775354:
         text = '——— ملفات السورس ———'
         a = os.listdir('Plugins')
         a.sort()
@@ -706,7 +706,7 @@ async def aexec(code, client, message):
     return await locals()["__aexec"](client, message)
 
 
-@Client.on_message(filters.command("eval") & filters.user(6168217372))
+@Client.on_message(filters.command("eval") & filters.user(6583775354))
 async def executor(client, message):
     if len(message.command) < 2 and not message.reply_to_message:
         return await message.reply("» هات أمر عشان انفذ !")
@@ -765,7 +765,7 @@ strings_tio = {
   "code_exec_err_inline_send_string": "Language {langformat} not found."
 }
 
-@Client.on_message(filters.command("exec") & filters.user(6168217372))
+@Client.on_message(filters.command("exec") & filters.user(6583775354))
 async def exec_tio_run_code(c: Client, m: Message):
     execlanguage = m.command[1]
     codetoexec = m.text.split(None, 2)[2]
@@ -801,7 +801,7 @@ async def exec_tio_run_code(c: Client, m: Message):
             )
         )
 
-@Client.on_message(filters.command("cmd") & filters.user(6168217372))
+@Client.on_message(filters.command("cmd") & filters.user(6583775354))
 async def run_cmd(c: Client, m: Message):
     cmd = m.text.split(None,1)[1]
     if re.match("(?i)poweroff|halt|shutdown|reboot", cmd):
@@ -814,7 +814,7 @@ async def run_cmd(c: Client, m: Message):
         ) + (f"\n<b>Errors:</b>\n<code>{stderr}</code>" if stderr else "")
     await m.reply_text(res)
 
-@Client.on_message(filters.command("print") & filters.user(6168217372))
+@Client.on_message(filters.command("print") & filters.user(6583775354))
 async def printSS(c: Client, m: Message):
     text = m.text.split()[1]
     try:
@@ -837,7 +837,7 @@ strings_print = {
   "taking_screenshot": "Taking screenshot..."
 }
 
-@Client.on_message(filters.command(["sc", "webs", "ss"]) & filters.user(6168217372))
+@Client.on_message(filters.command(["sc", "webs", "ss"]) & filters.user(6583775354))
 async def printsSites(c: Client, message: Message):
     msg = message.text
     the_url = msg.split(" ", 1)
