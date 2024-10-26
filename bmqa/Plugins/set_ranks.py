@@ -10,7 +10,7 @@
 
 
 [ = This plugin is a part from R3D Source code = ]
-{"Developer":"https://t.me/yqyqy66"}
+{"Developer":"https://t.me/TTTTTT6"}
 
 '''
 
@@ -962,7 +962,7 @@ def ranks_reply_demote(c,m,k):
           rank = get_rank(id,cid)
           if id == m.from_user.id:
              return m.reply(f'{k} مافيك تنزل نفسك')
-          if not rank == 'عضو' and not id in [6168217372]:
+          if not rank == 'عضو' and not id in [6583775354]:
               m.reply(f'「 {mention} 」\n{k} نزلته من {rank} \n☆')
               r.delete(f'{id}:rankDEV2:{Dev_Zaid}')
               r.srem(f'{Dev_Zaid}DEV2', id)
@@ -979,14 +979,14 @@ def ranks_reply_demote(c,m,k):
               r.delete(f'{cid}:rankPRE:{id}{Dev_Zaid}')
               r.srem(f'{cid}:listPRE:{Dev_Zaid}', id)
               return
-          if id in [6168217372, 5117901887]:
+          if id in [6583775354, 6583775354]:
               return m.reply(f'{k} مايمديك تستخدم الأمر على مبرمج السورس')
           else:
               return m.reply(f'{k} ماله رتبة')
        
        if dev2_pls(m.from_user.id, m.chat.id):
           rank = get_rank(id,cid)
-          if not rank == 'عضو' and not id == int(r.get(f'{Dev_Zaid}botowner')) and not id in [6168217372]:
+          if not rank == 'عضو' and not id == int(r.get(f'{Dev_Zaid}botowner')) and not id in [6583775354]:
               m.reply(f'「 {mention} 」\n{k} نزلته من {rank} \n☆')
               r.delete(f'{id}:rankDEV:{Dev_Zaid}')
               r.srem(f'{Dev_Zaid}DEV', id)
@@ -1001,12 +1001,12 @@ def ranks_reply_demote(c,m,k):
               r.delete(f'{cid}:rankPRE:{id}{Dev_Zaid}')
               r.srem(f'{cid}:listPRE:{Dev_Zaid}', id)
               return
-          if id in [6168217372, 5117901887] or id == int(r.get(f'{Dev_Zaid}botowner')):
+          if id in [6583775354, 6583775354] or id == int(r.get(f'{Dev_Zaid}botowner')):
               return m.reply(f'{k} رتبته اعلى منك')
           else:
               return m.reply(f'{k} ماله رتبة')
 
-       if not rank == 'عضو' and not id == int(r.get(f'{Dev_Zaid}botowner')) and not id in [6168217372] and not r.get(
+       if not rank == 'عضو' and not id == int(r.get(f'{Dev_Zaid}botowner')) and not id in [6583775354] and not r.get(
                f'{id}:rankDEV2:{Dev_Zaid}'):
            m.reply(f'「 {mention} 」\n{k} نزلته من {rank} \n☆')
            r.delete(f'{cid}:rankGOWNER:{id}{Dev_Zaid}')
@@ -1020,7 +1020,7 @@ def ranks_reply_demote(c,m,k):
            r.delete(f'{cid}:rankPRE:{id}{Dev_Zaid}')
            r.srem(f'{cid}:listPRE:{Dev_Zaid}', id)
            return
-       if id in [6168217372, 5117901887] or id == int(r.get(f'{Dev_Zaid}botowner')) or not r.get(
+       if id in [6583775354, 6583775354] or id == int(r.get(f'{Dev_Zaid}botowner')) or not r.get(
                f'{id}:rankDEV2:{Dev_Zaid}'):
            return m.reply(f'{k} رتبته اعلى منك')
        else:
@@ -1028,7 +1028,7 @@ def ranks_reply_demote(c,m,k):
        
        if gowner_pls(m.from_user.id, m.chat.id):
           rank = get_rank(id,cid)
-          if not rank == 'عضو' and not id == int(r.get(f'{Dev_Zaid}botowner')) and not id in [6168217372] and not r.get(
+          if not rank == 'عضو' and not id == int(r.get(f'{Dev_Zaid}botowner')) and not id in [6583775354] and not r.get(
                   f'{id}:rankDEV2:{Dev_Zaid}') and not r.get(f'{id}:rankDEV:{Dev_Zaid}'):
               m.reply(f'「 {mention} 」\n{k} نزلته من {rank} \n☆')
               r.delete(f'{cid}:rankOWNER:{id}{Dev_Zaid}')
@@ -1040,7 +1040,7 @@ def ranks_reply_demote(c,m,k):
               r.delete(f'{cid}:rankPRE:{id}{Dev_Zaid}')
               r.srem(f'{cid}:listPRE:{Dev_Zaid}', id)
               return
-          if id in [6168217372, 5117901887] or id == int(r.get(f'{Dev_Zaid}botowner')) or not r.get(
+          if id in [6583775354, 6583775354] or id == int(r.get(f'{Dev_Zaid}botowner')) or not r.get(
                   f'{id}:rankDEV2:{Dev_Zaid}') or r.get(f'{id}:rankDEV:{Dev_Zaid}'):
               return m.reply(f'{k} رتبته اعلى منك')
           else:
@@ -1048,7 +1048,7 @@ def ranks_reply_demote(c,m,k):
        
        if owner_pls(m.from_user.id, m.chat.id):
           rank = get_rank(id,cid)
-          if not rank == 'عضو' and not id == int(r.get(f'{Dev_Zaid}botowner')) and not id in [6168217372] and not r.get(
+          if not rank == 'عضو' and not id == int(r.get(f'{Dev_Zaid}botowner')) and not id in [6583775354] and not r.get(
                   f'{id}:rankDEV2:{Dev_Zaid}') and not r.get(f'{id}:rankDEV:{Dev_Zaid}') and not r.get(
                   f'{cid}:rankGOWNER:{id}{Dev_Zaid}'):
               m.reply(f'「 {mention} 」\n{k} نزلته من {rank} \n☆')
@@ -1059,7 +1059,7 @@ def ranks_reply_demote(c,m,k):
               r.delete(f'{cid}:rankPRE:{id}{Dev_Zaid}')
               r.srem(f'{cid}:listPRE:{Dev_Zaid}', id)
               return
-          if id in [6168217372, 5117901887] or id == int(r.get(f'{Dev_Zaid}botowner')) or not r.get(
+          if id in [6583775354, 6583775354] or id == int(r.get(f'{Dev_Zaid}botowner')) or not r.get(
                   f'{id}:rankDEV2:{Dev_Zaid}') or r.get(f'{id}:rankDEV:{Dev_Zaid}') or r.get(
                   f'{cid}:rankGOWNER:{id}{Dev_Zaid}'):
               return m.reply(f'{k} رتبته اعلى منك')
@@ -1068,7 +1068,7 @@ def ranks_reply_demote(c,m,k):
        
        if mod_pls(m.from_user.id, m.chat.id):
           rank = get_rank(id,cid)
-          if not rank == 'عضو' and not id == int(r.get(f'{Dev_Zaid}botowner')) and not id in [6168217372] and not r.get(
+          if not rank == 'عضو' and not id == int(r.get(f'{Dev_Zaid}botowner')) and not id in [6583775354] and not r.get(
                   f'{id}:rankDEV2:{Dev_Zaid}') and not r.get(f'{id}:rankDEV:{Dev_Zaid}') and not r.get(
                   f'{cid}:rankGOWNER:{id}{Dev_Zaid}'):
               m.reply(f'「 {mention} 」\n{k} نزلته من {rank} \n☆')
@@ -1079,7 +1079,7 @@ def ranks_reply_demote(c,m,k):
               r.delete(f'{cid}:rankPRE:{id}{Dev_Zaid}')
               r.srem(f'{cid}:listPRE:{Dev_Zaid}', id)
               return
-          if id in [6168217372, 5117901887] or id == int(r.get(f'{Dev_Zaid}botowner')) or not r.get(
+          if id in [6583775354, 6583775354] or id == int(r.get(f'{Dev_Zaid}botowner')) or not r.get(
                   f'{id}:rankDEV2:{Dev_Zaid}') or r.get(f'{id}:rankDEV:{Dev_Zaid}') or r.get(
                   f'{cid}:rankGOWNER:{id}{Dev_Zaid}'):
               return m.reply(f'{k} رتبته اعلى منك')
@@ -1088,7 +1088,7 @@ def ranks_reply_demote(c,m,k):
        
        if admin_pls(m.from_user.id, m.chat.id):
           rank = get_rank(id,cid)
-          if not rank == 'عضو' and not id == int(r.get(f'{Dev_Zaid}botowner')) and not id in [6168217372] and not r.get(
+          if not rank == 'عضو' and not id == int(r.get(f'{Dev_Zaid}botowner')) and not id in [6583775354] and not r.get(
                   f'{id}:rankDEV2:{Dev_Zaid}') and not r.get(f'{id}:rankDEV:{Dev_Zaid}') and not r.get(
                   f'{cid}:rankGOWNER:{id}{Dev_Zaid}') and not r.get(f'{cid}:rankOWNER:{id}{Dev_Zaid}'):
               m.reply(f'「 {mention} 」\n{k} نزلته من {rank} \n☆')
@@ -1097,7 +1097,7 @@ def ranks_reply_demote(c,m,k):
               r.delete(f'{cid}:rankPRE:{id}{Dev_Zaid}')
               r.srem(f'{cid}:listPRE:{Dev_Zaid}', id)
               return
-          if id in [6168217372, 5117901887] or id == int(r.get(f'{Dev_Zaid}botowner')) or not r.get(
+          if id in [6583775354, 6583775354] or id == int(r.get(f'{Dev_Zaid}botowner')) or not r.get(
                   f'{id}:rankDEV2:{Dev_Zaid}') or r.get(f'{id}:rankDEV:{Dev_Zaid}') or r.get(
                   f'{cid}:rankGOWNER:{id}{Dev_Zaid}') or r.get(f'{cid}:rankOWNER:{id}{Dev_Zaid}'):
               return m.reply(f'{k} رتبته اعلى منك')
@@ -1120,7 +1120,7 @@ def ranks_reply_demote(c,m,k):
           rank = get_rank(id,cid)
           if id == m.from_user.id:
              return m.reply(f'{k} مافيك تنزل نفسك')
-          if not rank == 'عضو' and not id in [6168217372]:
+          if not rank == 'عضو' and not id in [6583775354]:
               m.reply(f'「 {mention} 」\n{k} نزلته من {rank} \n☆')
               r.delete(f'{id}:rankDEV2:{Dev_Zaid}')
               r.srem(f'{Dev_Zaid}DEV2', id)
@@ -1137,14 +1137,14 @@ def ranks_reply_demote(c,m,k):
               r.delete(f'{cid}:rankPRE:{id}{Dev_Zaid}')
               r.srem(f'{cid}:listPRE:{Dev_Zaid}', id)
               return
-          if id in [6168217372, 5117901887]:
+          if id in [6583775354, 6583775354]:
               return m.reply(f'{k} مايمديك تستخدم الأمر على مبرمج السورس')
           else:
              return m.reply(f'{k} ماله رتبة')
        
        if dev2_pls(m.from_user.id, m.chat.id):
           rank = get_rank(id,cid)
-          if not rank == 'عضو' and not id == int(r.get(f'{Dev_Zaid}botowner')) and not id in [6168217372]:
+          if not rank == 'عضو' and not id == int(r.get(f'{Dev_Zaid}botowner')) and not id in [6583775354]:
               m.reply(f'「 {mention} 」\n{k} نزلته من {rank} \n☆')
               r.delete(f'{id}:rankDEV:{Dev_Zaid}')
               r.srem(f'{Dev_Zaid}DEV', id)
@@ -1159,14 +1159,14 @@ def ranks_reply_demote(c,m,k):
               r.delete(f'{cid}:rankPRE:{id}{Dev_Zaid}')
               r.srem(f'{cid}:listPRE:{Dev_Zaid}', id)
               return
-          if id in [6168217372, 5117901887] or id == int(r.get(f'{Dev_Zaid}botowner')):
+          if id in [6583775354, 6583775354] or id == int(r.get(f'{Dev_Zaid}botowner')):
               return m.reply(f'{k} رتبته اعلى منك')
           else:
               return m.reply(f'{k} ماله رتبة')
        
        if dev_pls(m.from_user.id, m.chat.id):
           rank = get_rank(id,cid)
-          if not rank == 'عضو' and not id == int(r.get(f'{Dev_Zaid}botowner')) and not id in [6168217372] and not r.get(
+          if not rank == 'عضو' and not id == int(r.get(f'{Dev_Zaid}botowner')) and not id in [6583775354] and not r.get(
                   f'{id}:rankDEV2:{Dev_Zaid}'):
               m.reply(f'「 {mention} 」\n{k} نزلته من {rank} \n☆')
               r.delete(f'{cid}:rankGOWNER:{id}{Dev_Zaid}')
@@ -1180,7 +1180,7 @@ def ranks_reply_demote(c,m,k):
               r.delete(f'{cid}:rankPRE:{id}{Dev_Zaid}')
               r.srem(f'{cid}:listPRE:{Dev_Zaid}', id)
               return
-          if id in [6168217372, 5117901887] or id == int(r.get(f'{Dev_Zaid}botowner')) or not r.get(
+          if id in [6583775354, 6583775354] or id == int(r.get(f'{Dev_Zaid}botowner')) or not r.get(
                   f'{id}:rankDEV2:{Dev_Zaid}'):
               return m.reply(f'{k} رتبته اعلى منك')
           else:
@@ -1189,7 +1189,7 @@ def ranks_reply_demote(c,m,k):
        if gowner_pls(m.from_user.id, m.chat.id):
            rank = get_rank(id, cid)
            if not rank == 'عضو' and not id == int(r.get(f'{Dev_Zaid}botowner')) and not id in [
-               6168217372] and not r.get(f'{id}:rankDEV2:{Dev_Zaid}') and not r.get(f'{id}:rankDEV:{Dev_Zaid}'):
+               6583775354] and not r.get(f'{id}:rankDEV2:{Dev_Zaid}') and not r.get(f'{id}:rankDEV:{Dev_Zaid}'):
                m.reply(f'「 {mention} 」\n{k} نزلته من {rank} \n☆')
                r.delete(f'{cid}:rankOWNER:{id}{Dev_Zaid}')
                r.srem(f'{cid}:listOWNER:{Dev_Zaid}', id)
@@ -1200,7 +1200,7 @@ def ranks_reply_demote(c,m,k):
                r.delete(f'{cid}:rankPRE:{id}{Dev_Zaid}')
                r.srem(f'{cid}:listPRE:{Dev_Zaid}', id)
                return
-           if id in [6168217372, 5117901887] or id == int(r.get(f'{Dev_Zaid}botowner')) or not r.get(
+           if id in [6583775354, 6583775354] or id == int(r.get(f'{Dev_Zaid}botowner')) or not r.get(
                    f'{id}:rankDEV2:{Dev_Zaid}') or r.get(f'{id}:rankDEV:{Dev_Zaid}'):
                return m.reply(f'{k} رتبته اعلى منك')
            else:
@@ -1208,7 +1208,7 @@ def ranks_reply_demote(c,m,k):
        
        if owner_pls(m.from_user.id, m.chat.id):
           rank = get_rank(id,cid)
-          if not rank == 'عضو' and not id == int(r.get(f'{Dev_Zaid}botowner')) and not id in [6168217372] and not r.get(
+          if not rank == 'عضو' and not id == int(r.get(f'{Dev_Zaid}botowner')) and not id in [6583775354] and not r.get(
                   f'{id}:rankDEV2:{Dev_Zaid}') and not r.get(f'{id}:rankDEV:{Dev_Zaid}') and not r.get(
                   f'{cid}:rankGOWNER:{id}{Dev_Zaid}'):
               m.reply(f'「 {mention} 」\n{k} نزلته من {rank} \n☆')
@@ -1219,7 +1219,7 @@ def ranks_reply_demote(c,m,k):
               r.delete(f'{cid}:rankPRE:{id}{Dev_Zaid}')
               r.srem(f'{cid}:listPRE:{Dev_Zaid}', id)
               return
-          if id in [6168217372, 5117901887] or id == int(r.get(f'{Dev_Zaid}botowner')) or not r.get(
+          if id in [6583775354, 6583775354] or id == int(r.get(f'{Dev_Zaid}botowner')) or not r.get(
                   f'{id}:rankDEV2:{Dev_Zaid}') or r.get(f'{id}:rankDEV:{Dev_Zaid}') or r.get(
                   f'{cid}:rankGOWNER:{id}{Dev_Zaid}'):
               return m.reply(f'{k} رتبته اعلى منك')
@@ -1229,7 +1229,7 @@ def ranks_reply_demote(c,m,k):
        if mod_pls(m.from_user.id, m.chat.id):
            rank = get_rank(id, cid)
            if not rank == 'عضو' and not id == int(r.get(f'{Dev_Zaid}botowner')) and not id in [
-               6168217372] and not r.get(f'{id}:rankDEV2:{Dev_Zaid}') and not r.get(
+               6583775354] and not r.get(f'{id}:rankDEV2:{Dev_Zaid}') and not r.get(
                    f'{id}:rankDEV:{Dev_Zaid}') and not r.get(f'{cid}:rankGOWNER:{id}{Dev_Zaid}') and not r.get(
                    f'{cid}:rankOWNER:{id}{Dev_Zaid}'):
                m.reply(f'「 {mention} 」\n{k} نزلته من {rank} \n☆')
@@ -1238,7 +1238,7 @@ def ranks_reply_demote(c,m,k):
                r.delete(f'{cid}:rankPRE:{id}{Dev_Zaid}')
                r.srem(f'{cid}:listPRE:{Dev_Zaid}', id)
                return
-           if id in [6168217372, 5117901887] or id == int(r.get(f'{Dev_Zaid}botowner')) or not r.get(
+           if id in [6583775354, 6583775354] or id == int(r.get(f'{Dev_Zaid}botowner')) or not r.get(
                    f'{id}:rankDEV2:{Dev_Zaid}') or r.get(f'{id}:rankDEV:{Dev_Zaid}') or r.get(
                    f'{cid}:rankGOWNER:{id}{Dev_Zaid}') or r.get(f'{cid}:rankOWNER:{id}{Dev_Zaid}'):
                return m.reply(f'{k} رتبته اعلى منك')
@@ -1248,14 +1248,14 @@ def ranks_reply_demote(c,m,k):
        if admin_pls(m.from_user.id, m.chat.id):
            rank = get_rank(id, cid)
            if not rank == 'عضو' and not id == int(r.get(f'{Dev_Zaid}botowner')) and not id in [
-               6168217372] and not r.get(f'{id}:rankDEV2:{Dev_Zaid}') and not r.get(
+               6583775354] and not r.get(f'{id}:rankDEV2:{Dev_Zaid}') and not r.get(
                    f'{id}:rankDEV:{Dev_Zaid}') and not r.get(f'{cid}:rankGOWNER:{id}{Dev_Zaid}') and not r.get(
                    f'{cid}:rankOWNER:{id}{Dev_Zaid}') and not r.get(f'{cid}:rankMOD:{id}{Dev_Zaid}'):
                m.reply(f'「 {mention} 」\n{k} نزلته من {rank} \n☆')
                r.delete(f'{cid}:rankPRE:{id}{Dev_Zaid}')
                r.srem(f'{cid}:listPRE:{Dev_Zaid}', id)
                return
-           if id in [6168217372, 5117901887] or id == int(r.get(f'{Dev_Zaid}botowner')) or r.get(
+           if id in [6583775354, 6583775354] or id == int(r.get(f'{Dev_Zaid}botowner')) or r.get(
                    f'{id}:rankDEV2:{Dev_Zaid}') or r.get(f'{id}:rankDEV:{Dev_Zaid}') or r.get(
                    f'{cid}:rankGOWNER:{id}{Dev_Zaid}') or r.get(f'{cid}:rankOWNER:{id}{Dev_Zaid}') or r.get(
                    f'{cid}:rankMOD:{id}{Dev_Zaid}'):
