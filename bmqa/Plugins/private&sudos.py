@@ -1,7 +1,7 @@
 '''
 
 [ = This plugin is a part from R3D Source code = ]
-{"Developer":"https://t.me/yqyqy66"}
+{"Developer":"https://t.me/TTTTTT6"}
 
 '''
 
@@ -189,7 +189,7 @@ def private_func(c,m,k):
   text = m.text
   #r.set(f'DevGroup:{Dev_Zaid}'
   name = r.get(f'{Dev_Zaid}:BotName') if r.get(f'{Dev_Zaid}:BotName') else 'رعد'
-  channel= r.get(f'{Dev_Zaid}:BotChannel') if r.get(f'{Dev_Zaid}:BotChannel') else 'yqyqy66'
+  channel= r.get(f'{Dev_Zaid}:BotChannel') if r.get(f'{Dev_Zaid}:BotChannel') else 'TTTTTT6'
   if text == '/start' and not dev_pls(m.from_user.id,m.chat.id):
      m.reply(text=f'''
 اهلين انا ،{name} 🧚
@@ -302,7 +302,7 @@ def private_func(c,m,k):
 @Client.on_message(filters.text, group=30)
 def sudosCommandsHandler(c,m):
     k = r.get(f'{Dev_Zaid}:botkey')
-    channel = r.get(f'{Dev_Zaid}:BotChannel') if r.get(f'{Dev_Zaid}:BotChannel') else 'yqyqy66'
+    channel = r.get(f'{Dev_Zaid}:BotChannel') if r.get(f'{Dev_Zaid}:BotChannel') else 'TTTTTT6'
     Thread(target=SudosCommandsFunc,args=(c,m,k,r,channel)).start()
 
 def SudosCommandsFunc(c,m,k,r,channel):
