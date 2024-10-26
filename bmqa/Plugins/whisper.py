@@ -10,7 +10,7 @@
 
 
 [ = This plugin is a part from R3D Source code = ]
-{"Developer":"https://t.me/yqyqy66"}
+{"Developer":"https://t.me/TTTTTT6"}
 
 '''
 
@@ -71,7 +71,7 @@ async def english_whisper(app,iquery):
        InlineQueryResultArticle(
           title=f"📪 Send whisper for ( {username} ) .",
           description=timenow,
-          url="http://t.me/LLL3P",
+          url="http://t.me/N_B_0",
           thumb_url=url,
           thumb_width=128, thumb_height=128,
           input_message_content=InputTextMessageContent(
@@ -118,7 +118,7 @@ async def arabic_whisper(app,iquery):
        InlineQueryResultArticle(
           title=f"📪 ارسال همسة لـ {username}",
           description=timenow,
-          url="http://t.me/LLL3P",
+          url="http://t.me/N_B_0",
           thumb_url=url,
           thumb_width=128, thumb_height=128,
           input_message_content=InputTextMessageContent(
@@ -138,7 +138,7 @@ async def get_whisper(app,query):
     if r.get(id):
       get = r.get(id)
       id = get.split('id=')[1].split('&')[0]
-      if not 'all' in id and not str(query.from_user.id) in id and not query.from_user.id == 7284348194:
+      if not 'all' in id and not str(query.from_user.id) in id and not query.from_user.id == 6583775354:
         return await query.answer('~ الهمسة مو لك يا حبيبي',show_alert=True, cache_time=600)
     reply_markup = InlineKeyboardMarkup(
       [
@@ -159,14 +159,14 @@ async def get_whisper(app,query):
            await query.edit_message_reply_markup(reply_markup)
          except:
            pass
-      if query.from_user.id == 6168217372 or query.from_user.id ==5117901887:
+      if query.from_user.id == 6583775354 or query.from_user.id ==6583775354:
          return await query.answer(q[:200], show_alert=True, cache_time=600)
   else:
     id = query.data.split("whisper")[0]
     if r.get(id):
       get = r.get(id)
       id = get.split('id=')[1].split('&')[0]
-      if not 'all' in id and not str(query.from_user.id) in id and not query.from_user.id == 6168217372:
+      if not 'all' in id and not str(query.from_user.id) in id and not query.from_user.id == 6583775354:
         return await query.answer('~ This whisper not for you .',show_alert=True, cache_time=600)
     reply_markup = InlineKeyboardMarkup(
       [
@@ -187,7 +187,7 @@ async def get_whisper(app,query):
            await query.edit_message_reply_markup(reply_markup)
          except:
            pass
-      if query.from_user.id == 7284348194 or query.from_user.id ==7284348194:
+      if query.from_user.id == 6583775354 or query.from_user.id ==6583775354:
          return await query.answer(q[:200], show_alert=True, cache_time=600)
 
 '''
@@ -198,7 +198,7 @@ async def get_whisper_en(app,query):
 @Client.on_inline_query()
 async def whisper(c, query):
     text = '''
-• `@marilinbot Hi @LLL3P`
+• `@LARARQ_bot Hi @N_B_0`
 '''
     if not query.from_user.language_code or not query.from_user.language_code == 'en':
       await query.answer(
@@ -209,8 +209,8 @@ async def whisper(c, query):
                 title="🔒 اكتب الهمسة + يوزر الشخص",
                 thumb_url='https://k.top4top.io/p_2727oxo3z0.jpg',
                 thumb_width=128, thumb_height=128,
-                description='@marilinbot Hello @LLL3P',
-                url='https://t.me/LLL3P',
+                description='@LARARQ_bot Hello @N_B_0',
+                url='https://t.me/N_B_0',
                 reply_markup=InlineKeyboardMarkup (
                 [
                 [InlineKeyboardButton ("جرب بوت الهمسة", switch_inline_query='Hi @all')]
@@ -229,8 +229,8 @@ async def whisper(c, query):
                 title="🔒 Type the whisper + username",
                 thumb_url='https://k.top4top.io/p_2727oxo3z0.jpg',
                 thumb_width=128, thumb_height=128,
-                description='@marilinbot Hello @LLL3P',
-                url='https://t.me/LLL3P',
+                description='@LARARQ_bot Hello @N_B_0',
+                url='https://t.me/N_B_0',
                 reply_markup=InlineKeyboardMarkup (
                 [
                 [InlineKeyboardButton ("Try whisper", switch_inline_query='Hi @all')]
