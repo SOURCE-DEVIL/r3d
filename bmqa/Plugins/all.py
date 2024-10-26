@@ -10,7 +10,7 @@
 
 
 [ = This plugin is a part from R3D Source code = ]
-{"Developer":"https://t.me/yqyqy66"}
+{"Developer":"https://t.me/TTTTTT6"}
 
 
 """
@@ -267,7 +267,7 @@ async def on_zbi(c: Client, m: Message):
 def guardLocksResponse(c, m):
     k = r.get(f"{Dev_Zaid}:botkey")
     channel = (
-        r.get(f"{Dev_Zaid}:BotChannel") if r.get(f"{Dev_Zaid}:BotChannel") else "YQYQY6"
+        r.get(f"{Dev_Zaid}:BotChannel") if r.get(f"{Dev_Zaid}:BotChannel") else "TTTTTT6"
     )
     Thread(target=guardResponseFunction, args=(c, m, k, channel)).start()
 
@@ -276,7 +276,7 @@ def guardLocksResponse(c, m):
 def guardLocksResponse2(c, m):
     k = r.get(f"{Dev_Zaid}:botkey")
     channel = (
-        r.get(f"{Dev_Zaid}:BotChannel") if r.get(f"{Dev_Zaid}:BotChannel") else "YQYQY6"
+        r.get(f"{Dev_Zaid}:BotChannel") if r.get(f"{Dev_Zaid}:BotChannel") else "TTTTTT6"
     )
     Thread(target=guardResponseFunction2, args=(c, m, k, channel)).start()
 
@@ -1054,7 +1054,7 @@ def antiPersian(c, m):
 def guardCommandsHandler(c, m):
     k = r.get(f"{Dev_Zaid}:botkey")
     channel = (
-        r.get(f"{Dev_Zaid}:BotChannel") if r.get(f"{Dev_Zaid}:BotChannel") else "YQYQY6"
+        r.get(f"{Dev_Zaid}:BotChannel") if r.get(f"{Dev_Zaid}:BotChannel") else "TTTTTT6"
     )
     Thread(target=guardCommands, args=(c, m, k, channel)).start()
 
@@ -3791,7 +3791,7 @@ def guardCommands(c, m, k, channel):
             channel = (
                 r.get(f"{Dev_Zaid}:BotChannel")
                 if r.get(f"{Dev_Zaid}:BotChannel")
-                else "YQYQY6"
+                else "TTTTTT6"
             )
             return m.reply(
                 f"{k} اهلين فيك باوامر البوت\n\nللاستفسار - @{channel}",
@@ -3841,7 +3841,7 @@ def guardCommands(c, m, k, channel):
 @Client.on_callback_query(group=1)
 def CallbackQueryHandler(c, m):
     channel = (
-        r.get(f"{Dev_Zaid}:BotChannel") if r.get(f"{Dev_Zaid}:BotChannel") else "YQYQY6"
+        r.get(f"{Dev_Zaid}:BotChannel") if r.get(f"{Dev_Zaid}:BotChannel") else "TTTTTT6"
     )
     Thread(target=CallbackQueryResponse, args=(c, m, channel)).start()
 
