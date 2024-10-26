@@ -10,7 +10,7 @@
 
 
 [ = This plugin is a part from R3D Source code = ]
-{"Developer":"https://t.me/yqyqy66"}
+{"Developer":"https://t.me/TTTTTT6"}
 
 '''
 
@@ -45,7 +45,7 @@ def Find(text):
 @Client.on_message(filters.text & filters.group, group=32)
 def ytdownloaderHandler(c,m):
     k = r.get(f'{Dev_Zaid}:botkey')
-    channel = r.get(f'{Dev_Zaid}:BotChannel') if r.get(f'{Dev_Zaid}:BotChannel') else 'w7G_BoT'
+    channel = r.get(f'{Dev_Zaid}:BotChannel') if r.get(f'{Dev_Zaid}:BotChannel') else 'TTTTTT6'
     Thread(target=yt_func,args=(c,m,k,channel)).start()
     
 def yt_func(c,m,k,channel):
@@ -297,7 +297,7 @@ async def shazamFunc(c,m):
        except:
          photo = "https://telegra.ph/file/49ace69e7c43c0041fb63.jpg"
        k = r.get(f'{Dev_Zaid}:botkey')
-       channel = r.get(f'{Dev_Zaid}:BotChannel') if r.get(f'{Dev_Zaid}:BotChannel') else 'w7G_BoT'
+       channel = r.get(f'{Dev_Zaid}:BotChannel') if r.get(f'{Dev_Zaid}:BotChannel') else 'TTTTTT6'
        url = out["track"]["url"]
        TEXT = f"""
 {k} اسم الصوت ( [{title}]({url}) )
@@ -336,23 +336,23 @@ async def shazamLyrics(c,m):
 @Client.on_inline_query(filters.regex("SOUND"))
 async def SoundCloud(c, query):
   url = query.query.split("#SOUND")[0]
-  channel = r.get(f'{Dev_Zaid}:BotChannel') if r.get(f'{Dev_Zaid}:BotChannel') else 'w7G_BoT'
+  channel = r.get(f'{Dev_Zaid}:BotChannel') if r.get(f'{Dev_Zaid}:BotChannel') else 'TTTTTT6'
   if url.count('/') > 1:
     await query.answer(
         results=[           
             InlineQueryResultArticle(
                 title="اضغط هنا للتحميل - صوت",
                 thumb_url='https://t.me/D7BotResources/161',
-                description='~ @YQYQY6 ',
-                url='https://t.me/w7G_BoT',
+                description='~ @TTTTTT6 ',
+                url='https://t.me/TTTTTT6',
                 reply_markup=InlineKeyboardMarkup ([[InlineKeyboardButton ("🧚‍♀️", url=f't.me/{channel}')]]),
                 input_message_content=InputTextMessageContent(f'https://soundcloud.com{url} #AUDIO',disable_web_page_preview=True)
             ),
             InlineQueryResultArticle(
                 title="اضغط هنا للتحميل - بصمة",
                 thumb_url='https://t.me/D7BotResources/163',
-                description='~ @YQYQY6 ',
-                url='https://t.me/w7G_BoT',
+                description='~ @TTTTTT6 ',
+                url='https://t.me/TTTTTT6',
                 reply_markup=InlineKeyboardMarkup ([[InlineKeyboardButton ("🧚‍♀️", url=f't.me/{channel}')]]),
                 input_message_content=InputTextMessageContent(f'https://soundcloud.com{url} #VOICE',disable_web_page_preview=True)
             ),
@@ -365,16 +365,16 @@ async def SoundCloud(c, query):
             InlineQueryResultArticle(
                 title="اضغط هنا للتحميل - صوت",
                 thumb_url='https://t.me/D7BotResources/161',
-                description='~ @YQYQY6 ',
-                url='https://t.me/w7G_BoT',
+                description='~ @TTTTTT6 ',
+                url='https://t.me/TTTTTT6',
                 reply_markup=InlineKeyboardMarkup ([[InlineKeyboardButton ("🧚‍♀️", url=f't.me/{channel}')]]),
                 input_message_content=InputTextMessageContent(f'https://on.soundcloud.com{url} #AUDIO',disable_web_page_preview=True)
             ),
             InlineQueryResultArticle(
                 title="اضغط هنا للتحميل - بصمة",
                 thumb_url='https://t.me/D7BotResources/163',
-                description='~ @YQYQY6 ',
-                url='https://t.me/w7G_BoT',
+                description='~ @TTTTTT6 ',
+                url='https://t.me/TTTTTT6',
                 reply_markup=InlineKeyboardMarkup ([[InlineKeyboardButton ("🧚‍♀️", url=f't.me/{channel}')]]),
                 input_message_content=InputTextMessageContent(f'https://on.soundcloud.com{url} #VOICE',disable_web_page_preview=True)
             ),
@@ -400,7 +400,7 @@ def getInfo(c, query):
     if r.get(f'{query.message.chat.id}:disableYT:{Dev_Zaid}'):  return
     if r.get(f':disableYT:{Dev_Zaid}'):  return
     query.message.delete()
-    channel = r.get(f'{Dev_Zaid}:BotChannel') if r.get(f'{Dev_Zaid}:BotChannel') else 'w7G_BoT'
+    channel = r.get(f'{Dev_Zaid}:BotChannel') if r.get(f'{Dev_Zaid}:BotChannel') else 'TTTTTT6'
     yt = YouTube(f'https://youtu.be/{vid_id}')
     #title = yt.title
     """
@@ -445,7 +445,7 @@ def audio_down(c, query):
       return False
     if r.get(f'{query.message.chat.id}:disableYT:{Dev_Zaid}'):  return
     if r.get(f':disableYT:{Dev_Zaid}'):  return
-    channel = r.get(f'{Dev_Zaid}:BotChannel') if r.get(f'{Dev_Zaid}:BotChannel') else 'w7G_BoT'
+    channel = r.get(f'{Dev_Zaid}:BotChannel') if r.get(f'{Dev_Zaid}:BotChannel') else 'TTTTTT6'
     rep = InlineKeyboardMarkup (
      [[
        InlineKeyboardButton ('🧚‍♀️', url=f'https://t.me/{channel}')
@@ -496,7 +496,7 @@ def audio_down(c, query):
       return
     if r.get(f'{query.message.chat.id}:disableYT:{Dev_Zaid}'):  return
     if r.get(f':disableYT:{Dev_Zaid}'):  return
-    channel = r.get(f'{Dev_Zaid}:BotChannel') if r.get(f'{Dev_Zaid}:BotChannel') else 'w7G_BoT'
+    channel = r.get(f'{Dev_Zaid}:BotChannel') if r.get(f'{Dev_Zaid}:BotChannel') else 'TTTTTT6'
     rep = InlineKeyboardMarkup (
      [[
        InlineKeyboardButton ('🧚‍♀️', url=f'https://t.me/{channel}')
@@ -542,7 +542,7 @@ def video_down(c, query):
       return False
     if r.get(f'{query.message.chat.id}:disableYT:{Dev_Zaid}'):  return
     if r.get(f':disableYT:{Dev_Zaid}'):  return
-    channel = r.get(f'{Dev_Zaid}:BotChannel') if r.get(f'{Dev_Zaid}:BotChannel') else 'w7G_BoT'
+    channel = r.get(f'{Dev_Zaid}:BotChannel') if r.get(f'{Dev_Zaid}:BotChannel') else 'TTTTTT6'
     rep = InlineKeyboardMarkup (
      [[
        InlineKeyboardButton ('🧚‍♀️', url=f'https://t.me/{channel}')
@@ -597,7 +597,7 @@ def video_down(c, query):
       return
     if r.get(f'{query.message.chat.id}:disableYT:{Dev_Zaid}'):  return
     if r.get(f':disableYT:{Dev_Zaid}'):  return
-    channel = r.get(f'{Dev_Zaid}:BotChannel') if r.get(f'{Dev_Zaid}:BotChannel') else 'w7G_BoT'
+    channel = r.get(f'{Dev_Zaid}:BotChannel') if r.get(f'{Dev_Zaid}:BotChannel') else 'TTTTTT6'
     rep = InlineKeyboardMarkup (
      [[
        InlineKeyboardButton ('🧚‍♀️', url=f'https://t.me/{channel}')
