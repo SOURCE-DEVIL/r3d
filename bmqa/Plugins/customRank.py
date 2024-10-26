@@ -10,7 +10,7 @@
 
 
 [ = This plugin is a part from R3D Source code = ]
-{"Developer":"https://t.me/yqyqy66"}
+{"Developer":"https://t.me/TTTTTT6"}
 
 '''
 
@@ -27,7 +27,7 @@ from helpers.Ranks import isLockCommand
 @Client.on_message(filters.text & filters.group, group=35)
 def customrankHandler(c,m):
     k = r.get(f'{Dev_Zaid}:botkey')
-    channel = r.get(f'{Dev_Zaid}:BotChannel') if r.get(f'{Dev_Zaid}:BotChannel') else 'yqyqy66'
+    channel = r.get(f'{Dev_Zaid}:BotChannel') if r.get(f'{Dev_Zaid}:BotChannel') else 'TTTTTT6'
     Thread(target=customRankFunc,args=(c,m,k,channel)).start()
     
 def customRankFunc(c,m,k,channel):
