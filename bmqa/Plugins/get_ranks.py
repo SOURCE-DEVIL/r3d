@@ -26,7 +26,7 @@ from helpers.Ranks import isLockCommand
 @Client.on_message(filters.text & filters.group, group=12)
 def getRanksHandler(c,m):
     k = r.get(f'{Dev_Zaid}:botkey')
-    channel = r.get(f'{Dev_Zaid}:BotChannel') if r.get(f'{Dev_Zaid}:BotChannel') else 'yqyqy66'
+    channel = r.get(f'{Dev_Zaid}:BotChannel') if r.get(f'{Dev_Zaid}:BotChannel') else 'TTTTTT6'
     Thread(target=get_ranks_func,args=(c,m,k,channel)).start()
     
 def get_ranks_func(c,m,k,channel):
