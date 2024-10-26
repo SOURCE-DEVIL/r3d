@@ -2,7 +2,7 @@
 
 
 [ = This plugin is a part from R3D Source code = ]
-{"Developer":"https://t.me/yqyqy66"}
+{"Developer":"https://t.me/TTTTTT6"}
 
 '''
 import random,re, time, akinator, string
@@ -27,7 +27,7 @@ def get_top(users):
 @Client.on_message(filters.text & filters.group, group=33)
 def gamesHandler(c,m):
     k = r.get(f'{Dev_Zaid}:botkey')
-    channel = r.get(f'{Dev_Zaid}:BotChannel') if r.get(f'{Dev_Zaid}:BotChannel') else 'yqyqy66'
+    channel = r.get(f'{Dev_Zaid}:BotChannel') if r.get(f'{Dev_Zaid}:BotChannel') else 'TTTTTT6'
     Thread(target=gamesFunc,args=(c,m,k,channel)).start()
 
 @Client.on_message(filters.dice & filters.group, group=45)
@@ -1012,7 +1012,7 @@ def gamesFunc(c,m,k,channel):
         "https://gcdnb.pbrd.co/images/bOMz1R4wG9xF.jpg",
         caption="سورس فلير حماية الكروبات، ارفعه مشرف بكروبك واحميها:",
         reply_markup=InlineKeyboardMarkup(
-            [[InlineKeyboardButton("الدخول البوت 💥", url="https://t.me/w7G_BoT")]]
+            [[InlineKeyboardButton("الدخول البوت 💥", url="https://t.me/LARARQ_bot")]]
         )
     )
    
@@ -1677,7 +1677,7 @@ def gamesFunc(c,m,k,channel):
 
 @Client.on_callback_query(filters.regex('aki'))
 def akinatorHandler(c,m):
-   channel = r.get(f'{Dev_Zaid}:BotChannel') if r.get(f'{Dev_Zaid}:BotChannel') else 'yqyqy66'
+   channel = r.get(f'{Dev_Zaid}:BotChannel') if r.get(f'{Dev_Zaid}:BotChannel') else 'TTTTTT6'
    if m.data == f'start_aki:{m.from_user.id}':
     rep = InlineKeyboardMarkup (
          [[InlineKeyboardButton ('🧚‍♀️', url=f't.me/{channel}')]]
