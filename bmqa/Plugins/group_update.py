@@ -10,7 +10,7 @@
 
 
 [ = This plugin is a part from R3D Source code = ]
-{"Developer":"https://t.me/yqyqy66"}
+{"Developer":"https://t.me/TTTTTT6"}
 
 '''
 
@@ -507,7 +507,7 @@ def quMaher(c,m):
         reply_markup=InlineKeyboardMarkup (
             [
             [
-              InlineKeyboardButton (title,url='t.me/yqyqy66')
+              InlineKeyboardButton (title,url='t.me/TTTTTT6')
             ],
             [
               InlineKeyboardButton ('بصوت سعد الغامدي',callback_data=f'{m.from_user.id}quSaad={soura}')
@@ -535,7 +535,7 @@ def qu3fasy(c,m):
         reply_markup=InlineKeyboardMarkup (
             [
             [
-              InlineKeyboardButton (title,url='t.me/yqyqy66')
+              InlineKeyboardButton (title,url='t.me/TTTTTT6')
             ],
             [
               InlineKeyboardButton ('بصوت سعد الغامدي',callback_data=f'{m.from_user.id}quSaad={soura}')
@@ -563,7 +563,7 @@ def quBaset(c,m):
         reply_markup=InlineKeyboardMarkup (
             [
             [
-              InlineKeyboardButton (title,url='t.me/yqyqy66')
+              InlineKeyboardButton (title,url='t.me/TTTTTT6')
             ],
             [
               InlineKeyboardButton ('بصوت سعد الغامدي',callback_data=f'{m.from_user.id}quSaad={soura}')
